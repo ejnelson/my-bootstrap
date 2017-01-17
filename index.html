@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='/fonts' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Bootstrap</title>
     <link rel="stylesheet" href="vendors/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="vendors/bootstrap.min.js" charset="utf-8"></script>
   </head>
   <body>
-    <div>
+    <div class="container">
       <header>
-        <h1>Cats of Leisure</h1>
+
+      <h1 class="text-center bounceInDown"><i class="glyphicon glyphicon-picture"></i> Cats of Leisure <i class="glyphicon glyphicon-picture"></i></h1>
+
       </header>
-      <section id="cat-photos">
-        <div>
+      <div class="col-xs-8 col-xs-offset-2 visible-xs">
+      <ul class="nav nav-pills nav-justified">
+        <li role="presentation" class="active"><a href="#Snuggles">Snuggles</a></li>
+        <li role="presentation"><a href="#Sniffles">Sniffles</a></li>
+        <li role="presentation"><a href="#Snaggles">Snaggles</a></li>
+        <li role="presentation"><a href="#Struggles">Struggles</a></li>
+        <li role="presentation"><a href="#Stiffles">Stiffles</a></li>
+        <li role="presentation"><a href="#Swivels">Swivels</a></li>
+        <li role="presentation"><a href="#Spiffles">Spiffles</a></li>
+        <li role="presentation"><a href="#Snot">Snot</a></li>
+      </ul>
+    </div>
+
+      <div id="cat-photos" class="container-fluid ">
+        <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Snuggles" class="col-xs-12 col-sm-6 col-lg-3 text-center">
           <img src="images/hawaiian-tourist.jpeg" alt="Cat dressed as a tourist in Hawaii">
         </div>
-        <div>
+            <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Sniffles" class="col-xs-12 col-sm-6 col-lg-3 text-center">
           <img src="images/leia.jpeg" alt="Cat dressed as Star Wars's Princess Leia">
         </div>
-        <div>
+            <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Snaggles" class="col-xs-12 col-sm-6 col-lg-3 text-center">
           <img src="images/lion.jpeg" alt="Cat dressed as a lion">
         </div>
-        <div>
+            <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Struggles" class="col-xs-12 col-sm-6 col-lg-3 text-center">
           <img src="images/mario.jpeg" alt="Cat dressed as Mario from Super Mario Bros">
         </div>
-        <div>
+            <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Stiffles" class="col-xs-12 col-sm-6 col-lg-3 text-center">
           <img src="images/seuss.jpeg" alt="Cat dressed as Dr Suess">
         </div>
-        <div>
+            <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Swivels" class="col-xs-12 col-sm-6 col-lg-3 text-center">
           <img src="images/why-so-serious.jpeg" alt="Cat dressed as Batman's The Joker">
         </div>
-        <div>
+            <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Spiffles" class="col-xs-12 col-sm-6 col-lg-3 text-center">
           <img src="images/gremlin.jpeg" alt="Cat dressed as a gremlin">
         </div>
-        <div>
-          <img src="images/creepy-af.jpeg" alt="Cat that looks like a skeleton">
+            <div class="spacer visible-xs col-xs-12"></div>
+        <div id="Snot" class="col-xs-12 col-sm-6 col-lg-3 text-center">
+          <img src="images/creepy-af.jpeg"  alt="Cat that looks like a skeleton">
         </div>
-      </section>
-      <footer>
-        <div class="">
-        <p>Because cats</p>
       </div>
+      <footer>
+        <section class="text-center col-xs-12 text bounceInUp">
+          <p>Because
+            <i class="glyphicon glyphicon-euro"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-text-width"></i>
+            <i class="glyphicon glyphicon-usd"></i>
+          </p>
+        </section>
     </footer>
     </div>
+
   </body>
 </html>
